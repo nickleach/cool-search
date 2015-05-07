@@ -1,26 +1,51 @@
 body{
   font-family:'Muli', Helvetica, sans-serif;
   background-color: #445566;
+  font-size: 62.5%;
+}
+*{
+  box-sizing: border-box;
+}
+footer{
+ height: 50px;
+  background-color: #334454;
+  color: #BCCCDC;
+  line-height: 50px;
+  text-align: center;
+
 }
 h1{
   text-align: center;
   font-family: Pacifico;
   color: #BCCCDC;
+  font-size: 6em;
+  margin: 0;
 }
 form{
-  text-align: center;
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
 }
 button{
   color: #334333;
   background-color: #ABDCAC;
-  border-color: #ADFEAD;
+  border: 1px solid #ADFEAD;
+  width: 100%;
+  font-size:2em;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+
 }
 input{
   background-color: #BBCCDD;
-  border-color: #DEEEFE;
+  border: 1px solid #DEEEFE;
+  width: 100%;
+  font-size: 2em;
+  display: block;
+  margin: auto;
 }
-footer{
-  text-align: center;
-  background-color: #334454;
-  color: #BCCCDC;
+.cool-search{
+  height: calc(100vh - 50px);
 }
+
